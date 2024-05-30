@@ -1,8 +1,8 @@
 return {
-	"AlexvZyl/nordic.nvim",
+	"catppuccin/nvim",
 	lazy = false,
 	priority = 1000,
 	config = function()
-		require("nordic").load()
+		vim.cmd.colorscheme("catppuccin-frappe")
 	end
 }
